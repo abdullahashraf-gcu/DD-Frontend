@@ -26,7 +26,7 @@ import RestaurantDetails from './pages/RestaurantDetails';
 import Foods from './pages/Foods';
 import FoodDetails from './pages/FoodDetails';
 import Admin from './pages/Admin';
-import NotFound from './pages/NotFound';
+import NotFound from './pages/notfound';
 
 // Create a client
 const queryClient = new QueryClient({
