@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import api from '../lib/axios';
 import Loader from '../components/Common/Loader';
-import ReviewCard from '../components/Cards/ReviewCard';
+import ReviewCard from '../components/Cards/reviewcard';
 import { useAuth } from '../context/AuthContext';
 import { FaUserPlus, FaUserMinus, FaEdit } from 'react-icons/fa';
 

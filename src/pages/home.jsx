@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { useQuery } from '@tanstack/react-query';
 import api from '../lib/axios';
-import ReviewCard from '../components/Cards/ReviewCard';
+import ReviewCard from '../components/Cards/reviewcard';
 import Loader from '../components/Common/Loader';
 
 const Home = () => {
