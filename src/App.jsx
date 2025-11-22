@@ -2,15 +2,16 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { AuthProvider } from './context/AuthContext';
 import ProtectedRoute from './components/Common/ProtectedRoute';
-import Navbar from './components/Bars/Navbar';
+import Navbar from './components/Bars/navbar';
 import Sidebar from './components/Bars/Sidebar';
-import Footer from './components/Bars/Footer';
+import Footer from './components/Bars/footer';
+
 
 // Pages
-import Login from './pages/Login';
-import Register from './pages/Register';
-import Home from './pages/Home';
-import Explore from './pages/Explore';
+import Login from './pages/login';
+import Register from './pages/register';
+import Home from './pages/home';
+import Explore from './pages/explore';
 import CreatePost from './pages/CreatePost';
 import PostDetails from './pages/PostDetails';
 import Profile from './pages/Profile';
